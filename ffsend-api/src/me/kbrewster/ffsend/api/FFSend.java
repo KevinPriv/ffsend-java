@@ -11,26 +11,14 @@ import org.apache.hc.core5.http.HttpEntity;*/
 
 import com.google.gson.Gson;
 import com.sun.org.apache.xml.internal.security.utils.Base64;
-import me.kbrewster.ffsend.api.endpoints.Upload;
-import me.kbrewster.ffsend.api.endpoints.response.ClientUploadData;
-import sun.rmi.runtime.Log;
 
 import javax.crypto.Cipher;
-import javax.crypto.SecretKey;
-import javax.crypto.SecretKeyFactory;
-import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 import javax.websocket.ContainerProvider;
-import javax.websocket.DeploymentException;
 import javax.websocket.WebSocketContainer;
 import java.io.*;
 import java.net.URI;
-import java.net.URISyntaxException;
-import java.security.Key;
-import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
-import java.security.spec.InvalidKeySpecException;
-import java.security.spec.KeySpec;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 

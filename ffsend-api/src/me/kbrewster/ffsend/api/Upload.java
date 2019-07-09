@@ -1,10 +1,7 @@
-package me.kbrewster.ffsend.api.endpoints;
+package me.kbrewster.ffsend.api;
 
 
 import com.google.gson.Gson;
-import com.sun.security.ntlm.Client;
-import me.kbrewster.ffsend.api.FFSend;
-import me.kbrewster.ffsend.api.endpoints.response.ClientUploadData;
 
 import javax.websocket.*;
 import java.io.*;

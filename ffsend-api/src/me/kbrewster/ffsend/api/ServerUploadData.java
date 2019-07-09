@@ -1,4 +1,4 @@
-package me.kbrewster.ffsend.api.endpoints.response;
+package me.kbrewster.ffsend.api;
 
 import com.google.gson.annotations.SerializedName;
 
